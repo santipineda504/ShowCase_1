@@ -24,7 +24,7 @@ header{
 
 .icon-user{
 	color: #636363;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 #hero{
@@ -52,6 +52,15 @@ header{
 	letter-spacing: 1px;
 	margin-top: 30px;
 }
+
+#hero h6{
+	background-color: #E6D691;
+	padding: 5px 2px;
+	border-radius: 50px;
+	margin: 10px 100px;
+	font-weight: 400;
+}
+
 #hero p{
 	color: #000000;
 	font-size: 26px;
@@ -61,6 +70,46 @@ header{
 
 #hero button{
 	margin-top: 40px;
+}
+
+.overlay{
+	position: absolute;
+	bottom: 0.5%;
+	left: 6%;
+	text-align: left;
+	font-weight: 500;
+	color: #FFF;
+}
+
+.tipo-boton{
+	background-color: rgba(128,128,128,0.3);
+	border: thin solid #FFFFFF;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-weight: 200;
+}
+
+#carousel{
+	background-color: #FFF;
+	text-align: center;
+}
+
+#carousel img{
+	border-radius: 10%;
+}
+
+#content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.contenido{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#content img{
+	border-radius: 5px;
 }
 
 footer{
@@ -124,4 +173,48 @@ footer{
 	font-weight: 100;
 	text-transform: capitalize;
 	color: #FFFFFF;
+}
+
+#sign-in{
+	background-image: url(enlazar imagen de fondo si necesita);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	padding: 10% 0;
+	color: #000000;
+}
+
+.signup-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 8px;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.columna-enmedio{
+	text-align: left;
+	box-sizing: border-box
 }
